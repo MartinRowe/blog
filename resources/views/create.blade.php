@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="page-header">
-        <h1>Create Game <small>and someday finish it!</small></h1>
+        <h1>Create Post <small>and someday finish it!</small></h1>
     </div>
 
     <form action="{{ action('PostsController@handleCreate') }}" method="post" role="form">
