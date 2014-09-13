@@ -55,7 +55,7 @@ return [
 		'mysql' => [
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'games',
+			'database'  => 'posts',
 			'username'  => 'homestead',
 			'password'  => 'secret',
 			'charset'   => 'utf8',

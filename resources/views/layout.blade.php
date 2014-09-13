@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Games Collection</title>
+    <title>All Posts</title>
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" />
 </head>
 <body>
     <div class="container">
         <nav class="navbar navbar-default" role="navigation">
             <div class="navbar-header">
-                <a href="{{ action('GamesController@index') }}" class="navbar-brand">Games Collection</a>
+                <a href="{{ action('PostsController@index') }}" class="navbar-brand">Posts Collection</a>
             </div>
         </nav>
         @yield('content')

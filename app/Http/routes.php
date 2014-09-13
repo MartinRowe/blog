@@ -1,9 +1,9 @@
 <?php
 
-use App\Game;
+use App\Post;
 use App\Http\Controllers;
 use Illuminate\Routing\Controller;
-use App\Http\Controllers\GamesController;
+use App\Http\Controllers\PostsController;
 // app/routes.php
 
 /*
@@ -18,19 +18,19 @@ use App\Http\Controllers\GamesController;
 */
 
 // Bind route parameters.
-Route::model('game', 'App\Game');
+Route::model('post', 'App\Post');
 
 // Show pages.
-Route::get('/', 'GamesController@index');
-Route::get('/create', 'GamesController@create');
-Route::get('/edit/{game}', 'GamesController@edit');
-Route::get('/delete/{game}', 'GamesController@delete');
+Route::get('/', 'PostsController@index');
+Route::get('/create', 'PostsController@create');
+Route::get('/edit/{post}', 'PostsController@edit');
+Route::get('/delete/{post}', 'PostsController@delete');
 
-Route::get('/find/{game}', 'GamesController@findGame');
+Route::get('/find/{post}', 'PostsController@findGame');
 //findGame($id)
 
 // Handle form submissions.
-Route::post('/create', 'GamesController@handleCreate');
-Route::post('/edit', 'GamesController@handleEdit');
-Route::post('/delete', 'GamesController@handleDelete');
+Route::post('/create', 'PostsController@handleCreate');
+Route::post('/edit', 'PostsController@handleEdit');
+Route::post('/delete', 'PostsController@handleDelete');
 

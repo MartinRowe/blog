@@ -6,7 +6,7 @@ use Illuminate\Auth\Reminders\RemindableTrait;
 use Illuminate\Contracts\Auth\User as UserContract;
 use Illuminate\Contracts\Auth\Remindable as RemindableContract;
 
-class Game extends Model implements UserContract, RemindableContract {
+class Post extends Model implements UserContract, RemindableContract {
 
 	use UserTrait, RemindableTrait;
 
@@ -15,7 +15,7 @@ class Game extends Model implements UserContract, RemindableContract {
 	 *
 	 * @var string
 	 */
-	protected $table = 'games';
+	protected $table = 'posts';
 
 	/**
 	 * The attributes excluded from the model's JSON form.

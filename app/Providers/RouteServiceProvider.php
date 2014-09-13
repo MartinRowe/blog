@@ -1,9 +1,9 @@
 <?php namespace App\Providers;
 
 use App, URL;
-use App\Game;
+use App\Post;
 use Illuminate\Routing\RouteServiceProvider as ServiceProvider;
-use App\Http\Controllers\GamesController;
+use App\Http\Controllers\PostsController;
 
 class RouteServiceProvider extends ServiceProvider {
 
@@ -40,25 +40,21 @@ class RouteServiceProvider extends ServiceProvider {
 		});
 
 
-		$this->get('game', 'App\Game');
-		$this->get('/', 'GamesController@index');
-		$this->get('/create', 'GamesController@create');
-		$this->get('edit/{game}', 'GamesController@edit');
-		$this->get('/delete/{game}', 'GamesController@delete');
+		$this->get('post', 'App\Post');
+		$this->get('/', 'PostsController@index');
+		$this->get('/create', 'PostsController@create');
+		$this->get('edit/{post}', 'PostsController@edit');
+		$this->get('/delete/{post}', 'PostsController@delete');
 
-		$this->get('/find/{game}', 'GamesController@findGame');
+		$this->get('/find/{post}', 'PostsController@findGame');
 
 		//get('/find/{game}', 'GamesController@findGame');
 
 
 		// Handle form submissions.
-		$this->post('/create', 'GamesController@handleCreate');
-		$this->post('edit', 'GamesController@handleEdit');
-		$this->post('/delete', 'GamesController@handleDelete');
-
-
-
-
+		$this->post('/create', 'PostsController@handleCreate');
+		$this->post('edit', 'PostsController@handleEdit');
+		$this->post('/delete', 'PostsController@handleDelete');
 
 	}
 
