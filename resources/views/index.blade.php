@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="page-header">
-        <h1>All Games <small>Gotta catch 'em all!</small></h1>
+        <h1>All Games <small>All Posts</small></h1>
     </div>
 
     <div class="panel panel-default">
