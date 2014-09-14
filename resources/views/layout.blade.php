@@ -16,7 +16,7 @@
 
 --><div class="grid__item  six-twelfths">
         <p>One Twelfth</p>
-         <p class=demo-block-grey-white>The comments on the right hand side of the screen show design principles.</p>
+         <p class=demo-block-red-white>The comments on the right hand side of the screen show design principles.</p>
   </p>
   <div class="container">
         <nav class="navbar navbar-default" role="navigation">
