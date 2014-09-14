@@ -9,7 +9,7 @@ gulp.src('app/assets/scss/style.scss')
 });
 
 gulp.task('watch', function() {
-	gulp.watch('app/assets/scss/style.scss', ['public/css/style.css']);
+	gulp.watch('app/assets/scss/style.scss', ['public/css/style.min.css']);
 //	sass --watch scss/style.scss:css/style.min.css --style compressed
 //	gulp.watch('app/assets/scss/**/*.scss', ['css']);
 
