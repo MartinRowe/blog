@@ -7,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="css/style.min.css">
 </head>
 <body>
-    
+
 <div class=grid><!--
     
 --><!--
@@ -18,6 +18,14 @@
         <p>One Twelfth</p>
          <p class=demo-block-grey-white>The comments on the right hand side of the screen show design principles.</p>
   </p>
+  <div class="container">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <a href="{{ action('PostsController@index') }}" class="navbar-brand">Blog Posts Collection</a>
+            </div>
+        </nav>
+        @yield('content')
+    </div>
     </div><!--
 
 --><!--
@@ -42,13 +50,6 @@
 
 
 --></div>
-    <div class="container">
-        <nav class="navbar navbar-default" role="navigation">
-            <div class="navbar-header">
-                <a href="{{ action('PostsController@index') }}" class="navbar-brand">Blog Posts Collection</a>
-            </div>
-        </nav>
-        @yield('content')
-    </div>
+    
 </body>
 </html>
