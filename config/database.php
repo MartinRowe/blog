@@ -57,6 +57,13 @@ return [
 			'database'  =>  getenv('DB_NAME'),
 			'username'  =>  getenv('DB_USERNAME'),
 			'password'  =>  getenv('DB_PASSWORD'),
+
+			'host'      =>  $_ENV['DB_HOST'],
+			'database'  =>  $_ENV['DB_NAME'],
+			'username'  =>  $_ENV['DB_USERNAME'],
+			'password'  =>  $_ENV['DB_PASSWORD'],
+
+
 */			
 
 		'mysql' => [
