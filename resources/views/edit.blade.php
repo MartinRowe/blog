@@ -13,7 +13,7 @@
             <input type="text" class="form-control" name="title" value="{{ $post->title }}" />
         </div>
         <div class="form-group">
-            <label for="blogpost">Publisher</label>
+            <label for="blogpost">Blog Post</label>
             <input type="text" class="form-control" name="blogpost" value="{{ $post->blogpost }}" />
         </div>
         <div class="checkbox">
