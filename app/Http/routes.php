@@ -21,6 +21,10 @@ use App\Http\Controllers\PostsController;
 Route::model('post', 'App\Post');
 
 // Show pages.
+
+
+
+
 Route::get('/', 'PostsController@index');
 Route::get('/create', 'PostsController@create');
 Route::get('/edit/{post}', 'PostsController@edit');
