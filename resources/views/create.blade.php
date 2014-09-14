@@ -2,12 +2,12 @@
 
 @section('content')
     <div class="page-header">
-        <h1>Create Post <small>and someday finish it!</small></h1>
+        <h1>Create Post <small>and one day complete it!</small></h1>
     </div>
 
     <form action="{{ action('PostsController@handleCreate') }}" method="post" role="form">
         <div class="form-group">
-            <label for="title">Title</label>
+            <label for="title">Blog Title</label>
             <input type="text" class="form-control" name="title" />
         </div>
         <div class="form-group">
