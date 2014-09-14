@@ -17,23 +17,19 @@ use App\Http\Controllers\PostsController;
 |
 */
 
-// Bind route parameters.
+// Bind route parameters - controllers beginning with 'Post recognised as post objects' .
 Route::model('post', 'App\Post');
 
+// Gets
 // Show pages.
-
-
-
-
 Route::get('/', 'PostsController@index');
 Route::get('/create', 'PostsController@create');
 Route::get('/edit/{post}', 'PostsController@edit');
 Route::get('/delete/{post}', 'PostsController@delete');
 
 Route::get('/find/{post}', 'PostsController@findGame');
-//findGame($id)
 
-// Handle form submissions.
+// Posts - Handle form submissions.
 Route::post('/create', 'PostsController@handleCreate');
 Route::post('/edit', 'PostsController@handleEdit');
 Route::post('/delete', 'PostsController@handleDelete');
