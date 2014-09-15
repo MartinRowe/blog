@@ -2,17 +2,21 @@ var gulp = require('gulp');
 var sass =  require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 
+// function named css
 gulp.task('css', function() {
-gulp.src('app/assets/scss/style.scss')
-	.pipe(sass())
-	.pipe(gulp.dest('public/css/style.min.css'));
+// source scss(sass) files
+gulp.src('app/assets/scss/*.scss')
+	.pipe(sass({ includePaths : ['app/assets/scss'] }))
+	// destination folder
+	.pipe(gulp.dest('public/css'));
 });
 
+
+// set gulp to watch so it will do things automatically
 gulp.task('watch', function() {
-	gulp.watch('app/assets/scss/style.scss', ['public/css/style.min.css']);
-//	sass --watch scss/style.scss:css/style.min.css --style compressed
-//	gulp.watch('app/assets/scss/**/*.scss', ['css']);
-
+	// watch folder, run 'css' function defined above 
+	gulp.watch('app/assets/scss/**/*.scss', ['css']);
 });
 
+//make the default task the 'watch' function defined above
 gulp.task('default', ['watch']);

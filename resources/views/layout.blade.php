@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>All Posts</title>
    <!-- <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" /> -->
-        <link rel="stylesheet" type="text/css" href="css/style.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 
@@ -16,7 +16,7 @@
 
 --><div class="grid__item  six-twelfths">
         <p>One Twelfth</p>
-         <p class=demo-block-red-white>The comments on the right hand side of the screen show design principles.</p>
+         <p class=demo-block-gray-white>The comments on the right hand side of the screen show design principles.</p>
   </p>
   <div class="container">
         <nav class="navbar navbar-default" role="navigation">

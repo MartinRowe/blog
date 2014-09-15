@@ -2,6 +2,8 @@
   "devDependencies": {
     "gulp": "^3.8.8",
     "gulp-autoprefixer": "^1.0.0",
-    "gulp-sass": "^0.7.3"
+    "gulp-sass": "^0.7.3",
+    //var rename = require('gulp-rename');
+//var uglify = require('gulp-uglify');
   }
 }
