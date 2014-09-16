@@ -15,40 +15,30 @@
  --><!--
 
 --><div class="grid__item  six-twelfths">
-        <p>One Twelfth</p>
-         <p class=demo-block-gray-white>The comments on the right hand side of the screen show design principles.</p>
-  </p>
-  <div class="container">
-        <nav class="navbar navbar-default" role="navigation">
-            <div class="navbar-header">
-                <a href="{{ action('PostsController@index') }}" class="navbar-brand">Blog Posts Collection</a>
-            </div>
-        </nav>
-        @yield('content')
-    </div>
-    </div><!--
+         <p class=demo-block-red-white>Six Twelfths</p>
+  
+
+<div class=demo-block-gray-white> 
+          <a href="{{ action('PostsController@index') }}" >Blog Posts</a>
+  </div>
+          @yield('content')
+  </div><!--
 
 --><!--
     
 --><div class="grid__item  five-twelfths">
-        <p>eleven Twelfth</p>
-        <div class="marginalia">
-        <p class="marginalia  desk-one-fifth">This page is an example of grid based sparse design.</p>
-      </div>
-        
+        <p class=demo-block-red-white>Five Twelfths</p>
     </div><!--
 
     --><!--
     
 --><div class="grid__item  one-twelfth">
-        <p>eleven Twelfth</p>
+        <p class=demo-block-red-white>One Twelfth</p>
         <div class="marginalia">
-        <p class="marginalia  desk-one-fifth">This page is an example of grid based sparse design.</p>
+        <p class="marginalia  desk-one-fifth">Marginalia</p>
       </div>
         
     </div><!--
-
-
 --></div>
     
 </body>

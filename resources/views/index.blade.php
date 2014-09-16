@@ -2,15 +2,13 @@
 
 @section('content')
     <div class="page-header">
-        <h1>All Posts <small>All Posts</small></h1>
+        <br />
+        <br />
+        <!-- <h4>All Posts</h4> -->
+        <hr />
     </div>
 
-    <div class="panel panel-default">
-        <div class="panel-body">
-            <a href="{{ action('PostsController@create') }}" class="btn btn-primary">Create Post</a>
-        </div>
-    </div>
-
+ <div class=demo-block-gray-white>   
     @if ($posts->isEmpty())
         <p>There are no posts! :(</p>
     @else
@@ -37,5 +35,12 @@
                 @endforeach
             </tbody>
         </table>
+        <hr />
     @endif
+</div>
+     <div class="panel panel-default">
+        <div class="panel-body">
+            <a href="{{ action('PostsController@create') }}" class="btn btn-primary">Create Post</a>
+        </div>
+    </div>
 @stop
