@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>All the Posts</title>
+    <title>All the Postss</title>
    <!-- <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" /> -->
         <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
