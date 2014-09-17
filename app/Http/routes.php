@@ -22,8 +22,8 @@ Route::model('post', 'App\Post');
 
 // Gets
 // Show pages.
-Route::get('/', array('as' => 'home', 'uses' => 'PostsController@index'));
-//Route::any('/manage', array('as' => 'manage', 'uses' => 'AdminContr
+
+Route::get('/', 'PostsController@index');
 Route::get('/create', 'PostsController@create');
 Route::get('/edit/{post}', 'PostsController@edit');
 Route::get('/delete/{post}', 'PostsController@delete');

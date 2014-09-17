@@ -37,7 +37,7 @@
         </table>
         <hr />
     @endif
-</div>
+</div> 
      <div class="panel panel-default">
         <div class="panel-body">
             <a href="{{ action('PostsController@create') }}" class="btn btn-primary">Create Post</a>

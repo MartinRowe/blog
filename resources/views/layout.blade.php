@@ -8,7 +8,7 @@
 </head>
 <body>
 <ul class="nav nav--fit">
-   <li><a href="{{ route('home') }}" class="greybox">Home</a></li>
+   <li><a href="#" class="greybox">Home</a></li>
    <li><a href="#" class="greybox">Blog</a></li>
    <li><a href="#" class="greybox">FAQ</a></li>
    <li><a href="#" class="greybox">About</a></li>

@@ -67,6 +67,7 @@ class PostsController extends Controller
         $post = Post::findOrFail($id);
         $post->delete();
 
+
         return \Redirect::action('PostsController@index');
     }
 
