@@ -25,13 +25,11 @@
 
 --><div class="grid__item  six-twelfths">
       <!--   <p class=demo-block-red-white>Six Twelfths</p> -->
-  
-
-<div class=demo-block-gray-white> 
-          <a href="{{ action('PostsController@index') }}" >Blog Posts</a>
-  </div>
-          @yield('content')
-  </div><!--
+      <div class=demo-block-gray-white> 
+        <a href="{{ action('PostsController@index') }}" >Blog Posts</a>
+      </div>
+      @yield('content')
+    </div><!--
 
 --><!--
     
@@ -44,8 +42,8 @@
 --><div class="grid__item  one-twelfth">
     <!--    <p class=demo-block-red-white>One Twelfth</p> -->
         <div class="marginalia">
-        <p class="marginalia  desk-one-fifth">Marginalia</p>
-      </div>
+          <p class="marginalia  desk-one-fifth">Marginalia</p>
+        </div>
         
     </div><!--
 --></div>

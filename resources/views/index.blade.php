@@ -8,7 +8,7 @@
         <hr />
     </div>
 
- <div class=demo-block-gray-white>   
+ <!--<div class=demo-block-gray-white>   -->
     @if ($posts->isEmpty())
         <p>There are no posts! :(</p>
     @else
@@ -36,8 +36,7 @@
             </tbody>
         </table>
         <hr />
-    @endif
-</div> 
+    @endif 
      <div class="panel panel-default">
         <div class="panel-body">
             <a href="{{ action('PostsController@create') }}" class="btn btn-primary">Create Post</a>
