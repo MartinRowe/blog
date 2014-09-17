@@ -26,7 +26,7 @@
 --><div class="grid__item  six-twelfths">
       <!--   <p class=demo-block-red-white>Six Twelfths</p> -->
       <div class=demo-block-gray-white> 
-        <a href="{{ action('PostsController@index') }}" >Blog Posts</a>
+        <a href="{{ action('PostsController@index') }}" >The Blog Posts</a>
       </div>
       @yield('content')
     </div><!--

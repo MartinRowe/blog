@@ -28,8 +28,8 @@
                     <td>{{ $post->blogpost }}</td>
                     <td>{{ $post->complete ? 'Yes' : 'No' }}</td>
                     <td>
-                        <a href="{{ action('PostsController@edit', $post->id) }}" class="btn btn-default">Edit</a>
-                        <a href="{{ action('PostsController@delete', $post->id) }}" class="btn btn-danger">Delete</a>
+                        <a href="{{ action('PostsController@edit', $post->id) }}" class="btn btn-default">Editt</a>
+                        <a href="{{ action('PostsController@delete', $post->id) }}" class="btn btn-danger">Deletee</a>
                     </td>
                 </tr>
                 @endforeach
