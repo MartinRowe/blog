@@ -2893,12 +2893,12 @@ label, .label {
  * She’s all yours, cap’n... Begin importing your stuff here.
  */
 body {
-  /* Matisse Blue #1A62A3 */
+  /* Matisse Blue #1A62A3; */
   /* background: #666; */
   /* set background of whole page to grey */
-  background: #ffffff;
+  /* background: #ffffff; */
   /* set background of whole page to White */
-  /* background: #1A62A3; */
+  background: #1A62A3;
   /* set background of whole page to Matisse Blue */
   line-height: 1;
   /* font - set spacing between lines */ }
