@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="page-header">
-        <h1>Create Post <small>and one day complete it!</small></h1>
+        <h1>Create Post <small>and some day complete it!</small></h1>
     </div>
 
     <form action="{{ action('PostsController@handleCreate') }}" method="post" role="form">
@@ -16,7 +16,7 @@
         </div>
         <div class="checkbox">
             <label for="complete">
-                <input type="checkbox" name="complete" /> Complete?
+                <input type="checkbox" name="complete" />Complete?
             </label>
         </div>
         <input type="submit" value="Create" class="btn btn-primary" />

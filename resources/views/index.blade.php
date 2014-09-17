@@ -10,7 +10,7 @@
 
  <!--<div class=demo-block-gray-white>   -->
     @if ($posts->isEmpty())
-        <p>There are no posts! :(</p>
+        <p>There are not any posts! :(</p>
     @else
         <table class="table table-striped">
             <thead>
