@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="page-header">
-        <h1>Delete the{{ $post->title }} <small>Are you again peoples?</small></h1>
+        <h1>Delete the{{ $post->title }} <small>Are you sure?</small></h1>
     </div>
     <form action="{{ action('PostsController@handleDelete') }}" method="post" role="form">
         <input type="hidden" name="post" value="{{ $post->id }}" />

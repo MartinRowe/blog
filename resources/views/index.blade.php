@@ -29,7 +29,7 @@
                     <td>{{ $post->complete ? 'Yes' : 'No' }}</td>
                     <td>
                         <a href="{{ action('PostsController@edit', $post->id) }}" class="btn btn-default">Edit</a>
-                        <a href="{{ action('PostsController@delete', $post->id) }}" class="btn btn-danger">Delete</a>
+                <!--        <a href="{{ action('PostsController@delete', $post->id) }}" class="btn btn-danger">Delete</a> -->
 <a href="{{ action('PostsController@delete', $post->id) }}"  <button class="btn btn--small">Small Button</button></a>
                         
                      <!--   <button class="btn btnsmall">Small Button</button> -->

@@ -24,5 +24,23 @@
         <input type="submit" value="Save" class="btn btn-primary" />
         <a href="{{ action('PostsController@index') }}" class="btn btn-link">Cancel</a>
     </form>
+    <ul class="form-fields">
+   <li>
+       <label>test</label>
+       <input>
+   </li>
+   <li>
+       <select id="country">
+           <option>UK</option>
+           <option>US</option>
+           <option>Other</option>
+       </select>
+       <label>test</label>
+   </li>
+   <li>
+       <input>
+       <label>test</label>
+   </li>
+</ul>
 @stop
 
